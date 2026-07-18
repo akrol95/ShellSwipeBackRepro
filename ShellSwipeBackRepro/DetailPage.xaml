@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShellSwipeBackRepro.DetailPage"
+             Title="Detail"
+             BackgroundColor="#E5391E">
+
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+        <Label
+            Text="DETAIL PAGE"
+            FontSize="48"
+            FontAttributes="Bold"
+            TextColor="White"
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="StackLabel"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>

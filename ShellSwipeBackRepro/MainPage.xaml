@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShellSwipeBackRepro.MainPage"
+             Title="Main"
+             BackgroundColor="White">
+
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+        <Label
+            Text="MAIN PAGE"
+            FontSize="48"
+            FontAttributes="Bold"
+            TextColor="Black"
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="PushBtn"
+            Text="Push"
+            Clicked="OnPushClicked"
+            HorizontalOptions="Fill" />
+    </VerticalStackLayout>
+
+</ContentPage>
